@@ -58,7 +58,7 @@ export default function UserAccount() {
 
   return (
     <Page title="User: Account Settings">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="Account"
           links={[

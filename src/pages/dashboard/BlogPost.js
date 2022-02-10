@@ -75,7 +75,7 @@ export default function BlogPost() {
 
   return (
     <Page title="Blog: Post Details">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="Post Details"
           links={[

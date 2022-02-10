@@ -24,7 +24,7 @@ export default function GeneralAnalytics() {
 
   return (
     <Page title="General: Analytics">
-      <Container maxWidth={themeStretch ? false : 'xl'}>
+      <Container maxWidth={'xxl'}>
         <Typography variant="h4" sx={{ mb: 5 }}>
           Hi, Welcome back
         </Typography>

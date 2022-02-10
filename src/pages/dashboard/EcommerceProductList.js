@@ -135,7 +135,7 @@ export default function EcommerceProductList() {
 
   return (
     <Page title="Ecommerce: Product List">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="Product List"
           links={[

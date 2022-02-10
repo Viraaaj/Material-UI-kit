@@ -26,7 +26,7 @@ export default function GeneralBooking() {
 
   return (
     <Page title="General: Banking">
-      <Container maxWidth={themeStretch ? false : 'xl'}>
+      <Container maxWidth={'xxl'}>
         <Grid container spacing={3}>
           {/* <Grid item xs={12} md={4}>
             <BookingWidgetSummary title="Total Booking" total={714000} icon={<BookingIllustration />} />

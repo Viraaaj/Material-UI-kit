@@ -118,7 +118,7 @@ export default function UserList() {
 
   return (
     <Page title="User: List">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="User List"
           links={[

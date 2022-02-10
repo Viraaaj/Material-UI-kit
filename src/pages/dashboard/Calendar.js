@@ -152,7 +152,7 @@ export default function Calendar() {
 
   return (
     <Page title="Calendar">
-      <Container maxWidth={themeStretch ? false : 'xl'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="Calendar"
           links={[{ name: 'Dashboard', href: PATH_DASHBOARD.root }, { name: 'Calendar' }]}

@@ -32,7 +32,7 @@ export default function EcommerceProductCreate() {
 
   return (
     <Page title="Ecommerce: Create a new product">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading={!isEdit ? 'Create a new product' : 'Edit product'}
           links={[

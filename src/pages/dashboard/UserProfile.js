@@ -83,7 +83,7 @@ export default function UserProfile() {
 
   return (
     <Page title="User: Profile">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="Profile"
           links={[

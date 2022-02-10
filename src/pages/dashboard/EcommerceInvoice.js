@@ -52,7 +52,7 @@ export default function EcommerceInvoice() {
 
   return (
     <Page title="Ecommerce: Invoice">
-      <Container maxWidth={themeStretch ? false : 'lg'}>
+      <Container maxWidth={'xxl'}>
         <HeaderBreadcrumbs
           heading="Invoice Details"
           links={[
